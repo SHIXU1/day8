@@ -1,0 +1,80 @@
+@import "common.scss";
+@import "_minix.scss";
+.web {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    width: 100%;
+    height: pxTorem(40px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include sizing;
+    padding-left: pxTorem(10px);
+    padding-right: pxTorem(10px);
+    background: #f2f2f2;
+    img {
+        width: pxTorem(20px);
+        height: pxTorem(20px);
+    }
+    .p1 {
+        flex: 1;
+        height: pxTorem(30px);
+        margin-left: pxTorem(10px);
+        margin-right: pxTorem(10px);
+        background: #fff;
+    }
+    input {
+        height: pxTorem(30px);
+    }
+}
+
+section {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    .top {
+        width: 100%;
+        height: pxTorem(30px);
+        ul {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            li {
+                margin-left: pxTorem(10px);
+            }
+        }
+    }
+    .box {
+        width: 100%;
+        flex: 1;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.bottom {
+    width: 100%;
+    height: pxTorem(50px);
+    display: flex;
+    dl {
+        width: 25%;
+        height: 100%;
+        text-align: center;
+        img {
+            width: pxTorem(30px);
+            height: pxTorem(30px);
+        }
+        .dd {
+            color: #f56c02;
+        }
+    }
+}

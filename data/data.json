@@ -1,0 +1,41 @@
+[{
+    "name": "推荐",
+    "nerrong": [{
+        "img": "images/d_03.jpg"
+    }]
+}, {
+    "name": "手机",
+    "nerrong": [{
+        "img": "images/d_03.jpg"
+    }]
+}, {
+    "name": "电视",
+    "nerrong": [{
+        "img": "images/d_03.jpg"
+    }]
+}, {
+    "name": "电脑",
+    "nerrong": [{
+        "img": "images/d_03.jpg"
+    }]
+}, {
+    "name": "全面屏",
+    "nerrong": [{
+        "img": "images/d_03.jpg"
+    }]
+}, {
+    "name": "生活用品",
+    "nerrong": [{
+        "img": "images/d_03.jpg"
+    }]
+}, {
+    "name": "电器",
+    "nerrong": [{
+        "img": "images/d_03.jpg"
+    }]
+}, {
+    "name": "家具",
+    "nerrong": [{
+        "img": "images/d_03.jpg"
+    }]
+}]

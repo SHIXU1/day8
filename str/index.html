@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/flexible.js"></script>
+</head>
+
+<body>
+    <div class="web">
+        <div class="top">
+            <p><img src="images/a_03.jpg" alt=""></p>
+            <p class="p1">
+                <input type="text" placeholder="搜索商品名称">
+            </p>
+            <p>
+                <img src="images/a_05.jpg" alt="">
+            </p>
+        </div>
+        <section>
+            <div class="top">
+                <ul>
+                    <li>推荐</li>
+                    <li>手机</li>
+                    <li>电视</li>
+                    <li>电脑</li>
+                    <li>全面屏</li>
+                    <li>生活用品</li>
+                    <li>电器</li>
+                    <li>家具</li>
+                </ul>
+            </div>
+            <div class="box">
+                <img src="images/d_03.jpg" alt="">
+            </div>
+        </section>
+        <div class="bottom">
+            <dl>
+                <dt><img src="images/b_03.jpg" alt=""></dt>
+                <dd class="dd">首页</dd>
+            </dl>
+            <dl>
+                <dt><img src="images/b_05.jpg" alt=""></dt>
+                <dd>分类</dd>
+            </dl>
+            <dl>
+                <dt><img src="images/b_07.jpg" alt=""></dt>
+                <dd>购物车</dd>
+            </dl>
+            <dl>
+                <dt><img src="images/b_09.jpg" alt=""></dt>
+                <dd>我的</dd>
+            </dl>
+        </div>
+    </div>
+    <script>
+        var xhr = new XMLHttpRequest;
+
+        xhr.onload = function(e) {
+            // var data = e.target.response;
+            // console.log(data)
+        }
+        xhr.open("post", "/liat", true);
+        xhr.send();
+    </script>
+</body>
+
+</html>
